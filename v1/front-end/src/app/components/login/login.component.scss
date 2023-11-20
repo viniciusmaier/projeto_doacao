@@ -1,0 +1,41 @@
+
+
+
+$verdeSuave      : #A4CDAB;
+$laranja         : #FF6100;
+$laranjaSuave    : #FE9E62;
+$bege            : #F2DDD0;
+$vemelhoProfundo : #B82303;
+
+
+
+.container-form
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-form form{
+  width: 600px;
+  border: 1.5px solid $laranja;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 15px $laranjaSuave;
+
+}
+
+.container-button{
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+  width: 80px;
+}
+
+
